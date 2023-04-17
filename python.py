@@ -23,11 +23,7 @@ def lista_primos():
         if i % 10 == 0 and i != 0:
             output += "<br>"
         output += str(num) + " "
-    return output          
-
-
-
+    return output      
   
-
 if __name__ == '__main__':
-    app.run()
+    app.run(host='0.0.0.0', port=5000)
